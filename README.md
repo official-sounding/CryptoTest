@@ -18,7 +18,7 @@ all block ciphers can use ECB or CBC operating modes
 
 ## Asymetrical Algorithms
 * Lamport Signatures
-* PKCS#1 v1.5 (RSA with OAEP) (which thanks to the way BigIntegers are implemented is pretty broken)
+* PKCS#1 v1.5 RSAES-OAEP (RSA works, and OAEP works, but thanks to some BigInteger strageness, their interaction doesn't work all that well)
 
 ## Card-based Algorithms
 * Solitaire
